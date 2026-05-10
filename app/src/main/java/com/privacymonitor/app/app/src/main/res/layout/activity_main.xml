@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#0D1117">
+
+    <TextView
+        android:text="🔒 Privacy Monitor"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:text="Monitors mic &amp; camera in background"
+        android:textSize="14sp"
+        android:textColor="#8B949E"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/statusMic"
+        android:text="🎤 Microphone: Not monitoring"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/statusCamera"
+        android:text="📷 Camera: Not monitoring"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:text="▶ Start Monitoring"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#30D158"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:text="⏹ Stop Monitoring"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF453A"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnBattery"
+        android:text="⚡ Disable Battery Optimization"
+        android:textColor="#8B949E"
+        android:backgroundTint="#161B22"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+</LinearLayout>
